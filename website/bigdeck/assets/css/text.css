@@ -1,0 +1,39 @@
+.title, .text {
+    color: #8a8d93;
+}
+
+.title {
+    font-family: 'Roboto', sans-serif;
+}
+
+.text {
+    font-family: 'Montserrat', sans-serif;
+}
+
+h1.title {
+    margin-bottom: 20px;
+}
+
+h1.title.no-margin {
+    margin-bottom: 0;
+}
+
+.large {
+    font-size: 2em;
+}
+
+.medium {
+    font-size: 1.6em;
+}
+
+.normal {
+    font-size: 1.3em;
+}
+
+.small {
+    font-size: 1em;
+}
+
+.extra-small {
+    font-size: 0.8em;
+}

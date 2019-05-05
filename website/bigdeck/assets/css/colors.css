@@ -1,0 +1,31 @@
+.primary {
+    background: #2D3035;
+}
+
+.secondary {
+    background: #22252A;
+}
+
+.red {
+    background: #DB6574;
+}
+
+.purple {
+    background: #864DD9;
+}
+
+.green {
+    background: #48E0A6;
+}
+
+.text-red {
+    color: #DB6574;
+}
+
+.text-purple {
+    color: #864DD9;
+}
+
+.text-green {
+    color: #48E0A6;
+}
