@@ -1,0 +1,146 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/parent"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#22252A"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:id="@+id/title"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#2D3035"
+        android:layout_marginLeft="16dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginRight="16dp"
+        android:padding="16dp"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="BIG"
+            android:textSize="30dp"
+            android:textColor="#DB6574"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="DECK"
+            android:textSize="30dp"
+            android:textColor="#8a8d93"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/firstRow"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/title">
+
+        <Button
+            android:id="@+id/buttonRarities"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="16dp"
+            android:layout_marginTop="16dp"
+            android:layout_marginRight="8dp"
+            android:layout_marginBottom="8dp"
+            android:layout_weight="1"
+            android:background="#2D3035"
+            android:drawableTop="@drawable/rarities"
+            android:padding="20dp"
+            android:text="Rarities"
+            android:textColor="#8a8d93" />
+
+        <Button
+            android:id="@+id/buttonTypes"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="8dp"
+            android:layout_marginTop="16dp"
+            android:layout_marginRight="16dp"
+            android:layout_marginBottom="8dp"
+            android:layout_weight="1"
+            android:background="#2D3035"
+            android:drawableTop="@drawable/types"
+            android:padding="20dp"
+            android:text="Types"
+            android:textColor="#8a8d93" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/secondRow"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/firstRow">
+
+        <Button
+            android:id="@+id/buttonRaces"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="16dp"
+            android:layout_marginTop="8dp"
+            android:layout_marginRight="8dp"
+            android:layout_marginBottom="8dp"
+            android:layout_weight="1"
+            android:background="#2D3035"
+            android:drawableTop="@drawable/races"
+            android:padding="20dp"
+            android:text="Races"
+            android:textColor="#8a8d93" />
+
+        <Button
+            android:id="@+id/buttonClasses"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="8dp"
+            android:layout_marginTop="8dp"
+            android:layout_marginRight="16dp"
+            android:layout_marginBottom="8dp"
+            android:layout_weight="1"
+            android:background="#2D3035"
+            android:drawableTop="@drawable/classes"
+            android:padding="20dp"
+            android:text="Classes"
+            android:textColor="#8a8d93" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/thirdRow"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/secondRow">
+
+        <Button
+            android:id="@+id/buttonCards"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="16dp"
+            android:layout_marginTop="8dp"
+            android:layout_marginRight="8dp"
+            android:layout_marginBottom="8dp"
+            android:layout_weight="1"
+            android:background="#2D3035"
+            android:drawableTop="@drawable/cards"
+            android:padding="20dp"
+            android:text="Cards"
+            android:textColor="#8a8d93" />
+
+        <Button
+            android:id="@+id/buttonDecks"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="8dp"
+            android:layout_marginTop="8dp"
+            android:layout_marginRight="16dp"
+            android:layout_marginBottom="8dp"
+            android:layout_weight="1"
+            android:background="#2D3035"
+            android:drawableTop="@drawable/decks"
+            android:padding="20dp"
+            android:text="Decks"
+            android:textColor="#8a8d93" />
+    </LinearLayout>
+
+</RelativeLayout>
